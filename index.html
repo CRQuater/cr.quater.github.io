@@ -2,23 +2,38 @@
 <html lang="en-UK">
 <head>
     <title>My experimenting page</title>
+    <link rel="icon" href="img/user.ico">
     <link rel="stylesheet" href="styles.css">
     <script src="myScript.js"></script>
+    <meta name="viewport" content="width=device-width, inital-scale=1">
 </head>
 <body>
+    <div id="header"></div>
     <h1 style="text-align: center; color:lightgray">My work resume</h1>
-    <button onclick="myFunction()">
-        <p>My contact info</p>
-    </button>
-    <div id="MyInfo">
-        <pre class="relative">
-        Name: Nguyễn Đình Hùng
-        Occupation: Sinh viên HVANND
-        Semester: 2nd years
-        </pre>
-        <a href="mailto:rhquater@gmail.com" target="_parent">
-            <img title="My Email" src="img/gmail.png" alt="Send Mail" width="50px" height="40px">
-        </a>
+    <div class="center">
+        <button onclick="myFunction()">
+            <p>My contact info</p>
+        </button>
+        <div id="MyInfo">
+            <pre class="relative">
+            Name: Nguyễn Đình Hùng
+            Occupation: Sinh viên HVANND
+            Semester: 2nd years
+            </pre>
+            <a href="mailto:rhquater@gmail.com" target="_parent">
+                <img title="My Email" src="img/gmail.png" alt="Send Mail" width="50px" height="40px">
+            </a>
+        </div>
+        <br><br>
+        <div class="dropdown">
+            <button onclick="clickDrop()" class="dropbtn">
+                About
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="Pages/Myself.html">Myself</a>
+            </div>
+        </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
