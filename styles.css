@@ -1,0 +1,9 @@
+#MyInfo{
+    text-align: left;
+    border: 2px solid lightskyblue;
+    width: 350px;
+}
+pre.relative{
+    position: relative;
+    left: -45px;
+}
