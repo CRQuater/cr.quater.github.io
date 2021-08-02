@@ -13,7 +13,6 @@ pre.relative{
     left: -45px;
 }
 div.center{
-    float:center;
     border: 5px solid #ccc;
     background-color: #f3f3f3;
 }
@@ -48,3 +47,29 @@ div.center{
 }
 .dropdown-content a:hover {background-color: #ddd}
 .show {display:block;}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 15px;
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+#nav li a:hover{
+    background-color: #111111;
+}
